@@ -221,12 +221,12 @@ class _MyHomePageState extends State<MyHomePage> {
                                 ),
                               ],
                             ),
-                          ))
+                          ),),
                     ],
                   ),
                 );
-              }),
-        )));
+              },),
+        ),),);
   }
 
   SliverToBoxAdapter _bods() {
@@ -280,7 +280,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     borderRadius: BorderRadius.circular(5.0)),
                 focusedBorder: OutlineInputBorder(
                     borderRadius: BorderRadius.circular(5.0)),
-              )),
+              ),),
             )
           ],
         ),
@@ -401,7 +401,7 @@ class _MyHomePageState extends State<MyHomePage> {
                       height: MediaQuery.of(context).size.height*0.5,width: MediaQuery.of(context).size.width*0.8,
                       decoration: BoxDecoration(borderRadius: BorderRadius.circular(5.0),
                       color: ConstColors.containerColor),
-                      ),)),
+                      ),),),
               ],
             ),
          ),
